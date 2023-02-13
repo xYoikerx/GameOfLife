@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize/normalize.css">
+    <script src="./components/celula.js"></script>
+    <script src="./components/fila.js"></script>
+    <script src="./components/mapa.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagenes/logo.png" alt="">
+        <h1 class="title">Game Of Life</h1>
+        <p class="contador">
+            numero de generacion: 0
+        </p>
+    </header>
+
+    <!-- MAPA espacion donde nacen las celulas -->
+    <div class="campoDeMapa">
+
+    </div>
+
+    <div class="opciones">
+        <button class="inicio boton">
+            <img class="play-boton img" src="./imagenes/boton-de-play.png" alt="">
+            <img src="./imagenes/boton-de-pausa-de-video.png" alt="" class="pause-boton img">
+            <p class="textoBoton boton-text">Start</p>
+        </button>
+        <button class="next boton">
+            <img class="share img" src="./imagenes/arrow-right.png" alt="">
+            <p class="textoBoton">Next</p>
+        </button>
+        <button class="clear-boton boton">
+            <img class="clear img" src="./imagenes/barriendo.png" alt="">
+            <p class="textoBoton clearTexto">Clear</p>
+        </button>
+        
+    </div>
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>
